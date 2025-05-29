@@ -78,12 +78,15 @@ QuizAppChatGPT/
 
 
 1. 🙋Ask your LLM with a prompt to create a Quiz (You can specify the number, say 10 questions) on a topic you just studied.
-1. For each question you see on your screen, Select the corresponding answer</li> <br>
-### 🫠After finishing the quiz, Click on "Copy" button to copy your answers to clipboard</li> <br>
-1. 🍰Paste the answers in your LLM as prompt for the quiz it just generated</li> <br>
-1. ⏳It will grade the answers and give you the result</li> <br>
-1. 📢I have added sounds too, just to keep the project alive and interesting. So Tune your volume slider.</li> <br>
-1. 👌Oh, 1 more thing. This quiz also supports Multiple Answer Logic too. Meaning One question having Option A and B etc.
-1. 👌Added Vibration too for mobile devices. Did that at May 29, 2025 11:22PM IST. </li> <br>
+1. For each question you see on your screen, Select the corresponding answer.
+1. 🫠After finishing the quiz, Click on "Copy" button to copy your answers to clipboard.
+1. 🍰Paste the answers in your LLM as prompt for the quiz it just generated.
+1. ⏳It will grade the answers and give you the result.
+1. 📢I have added sounds too, just to keep the project alive and interesting. So Tune your volume slider.
+1. 👌Oh, 1 more thing. This quiz also supports Multiple Answer Logic too. Meaning One question having Option A and B etc. <br>
+1. 👌Added Vibration too for mobile devices. Did that at May 29, 2025 11:22PM IST. 
 
-### 😁Happy learning!
+
+## [Click here 👆 to see the project run](https://raghav-konk.github.io/QuizAppChatGPT/)
+
+# 😁Happy learning! Bye.
