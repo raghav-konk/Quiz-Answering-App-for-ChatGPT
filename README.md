@@ -1,4 +1,4 @@
-## How to use this this app?
+# How to use this this app?
 
 ### 🙋Ask your LLM with a prompt to create a Quiz (You can specify the number, say 10 questions) on a topic you just studied.</li> <br>
  ### For each question you see on your screen, Select the corresponding answer</li> <br>
