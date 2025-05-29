@@ -172,12 +172,13 @@ input[type="checkbox"]:checked + label {
   100% { transform: scale3d(1, 1, 1); }
 }
 
+
 .jelly-heading {
   display: inline-block;
-  font-size: 3rem;
+  font-size: 2.3rem;
   color: #fff;
-  font-family: 'Monoton', cursive;
-  animation: jello 1.5s infinite;
+  font-family: 'Press Start 2P';
+  animation: jello 2s infinite;
 }
 
 @keyframes rainbowFloat {
