@@ -81,3 +81,5 @@ document.getElementById("copyAnswers").addEventListener("click", () => {
     alert("Nothing to copy!");
   }
 });
+const answerBox = document.getElementById("answerBox");
+answerBox.classList.add("show-answer");
