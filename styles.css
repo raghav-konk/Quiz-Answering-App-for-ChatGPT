@@ -92,3 +92,9 @@ button:hover {
     flex: 1 1 45%;
   }
 }
+
+input[type="checkbox"]:checked + label {
+  box-shadow: 0 0 10px #4caf50;
+  background-color: #2e7d32;
+  transition: all 0.3s ease;
+}
