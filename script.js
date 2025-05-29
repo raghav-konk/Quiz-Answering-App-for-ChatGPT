@@ -1,10 +1,21 @@
 document.querySelectorAll('input[type="checkbox"]').forEach((box) => {
   box.addEventListener('change', () => {
+    // Play sound
     const audio = document.getElementById("selectSound");
-    audio.currentTime = 0;
-    audio.play();
+    if (audio) {
+      audio.currentTime = 0;
+      audio.play().catch((err) => {
+        console.warn("Audio playback failed:", err);
+      });
+    }
+
+    // Trigger vibration (on supported devices)
+    if ("vibrate" in navigator) {
+      navigator.vibrate(100);
+    }
   });
 });
+
 
 document.getElementById("getAnswers").addEventListener("click", () => {
   const audio = document.getElementById("submitSound");
