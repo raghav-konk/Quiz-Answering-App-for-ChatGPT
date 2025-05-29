@@ -12,7 +12,7 @@ document.getElementById("getAnswers").addEventListener("click", () => {
   audio.play();
 
   const answers = {};
-  for (let i = 1; i <= 3; i++) {
+  for (let i = 1; i <= 10; i++) {
     const selected = Array.from(document.querySelectorAll(`#q${i} input:checked`)).map(
       (el) => el.value
     );
