@@ -87,6 +87,8 @@ QuizAppChatGPT/
 1. 👌Added Vibration too for mobile devices. Did that at May 29, 2025 11:22PM IST. 
 
 
-## [Click here 👆 to see the project run](https://raghav-konk.github.io/QuizAppChatGPT/)
 
+---
+### <a href="https://raghav-konk.github.io/QuizAppChatGPT/" target="_blank" rel="noopener noreferrer">Click here 👆 to see the project run in a new tab.</a>
+---
 # 😁Happy learning! Bye.
