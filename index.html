@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multi-Select Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Rango's Quiz Answering Pattern</h1>
+    <p>This is a way to answer your Multiple Choice Questions that you generate in ChatGPT, DeepSeek or any LLM for that matter.</p>
+<br>
+<h3>How to Use:</h3>
+ <li>🙋Ask your LLM with a prompt to create a Quiz (You can specify the number, say 10 questions) on a topic you just studied.</li>
+ <li>For each question you see on your screen, Select the corresponding answer</li>
+ <li>🫠After finishing the quiz, Click on "Copy" button to copy your answers to clipboard</li>
+ <li>🍰Paste the answers in your LLM as prompt for the quiz it just generated</li>
+ <li>⏳It will grade the answers and give you the result</li>
+ <li>📢I have added sounds too, just to keep the project alive and interesting. So Tune your volume slider.</li>
+ <li>👌Oh, 1 more thing. This quiz also supports Multiple Answer Logic too. Meaning One question having Option A and B etc.</li>
+ <p>😁Happy learning!! </p>
+
+
+    <div class="question" id="q1">
+      <h2>Q1</h2>
+      <div class="options">
+        <input type="checkbox" name="q1" id="q1a" value="A" />
+        <label for="q1a">A</label>
+
+        <input type="checkbox" name="q1" id="q1b" value="B" />
+        <label for="q1b">B</label>
+
+        <input type="checkbox" name="q1" id="q1c" value="C" />
+        <label for="q1c">C</label>
+
+        <input type="checkbox" name="q1" id="q1d" value="D" />
+        <label for="q1d">D</label>
+      </div>
+    </div>
+
+    <div class="question" id="q2">
+      <h2>Q2</h2>
+      <div class="options">
+        <input type="checkbox" name="q2" id="q2a" value="A" />
+        <label for="q2a">A</label>
+
+        <input type="checkbox" name="q2" id="q2b" value="B" />
+        <label for="q2b">B</label>
+
+        <input type="checkbox" name="q2" id="q2c" value="C" />
+        <label for="q2c">C</label>
+
+        <input type="checkbox" name="q2" id="q2d" value="D" />
+        <label for="q2d">D</label>
+      </div>
+    </div>
+
+    <div class="question" id="q3">
+      <h2>Q3</h2>
+      <div class="options">
+        <input type="checkbox" name="q3" id="q3a" value="A" />
+        <label for="q3a">A</label>
+
+        <input type="checkbox" name="q3" id="q3b" value="B" />
+        <label for="q3b">B</label>
+
+        <input type="checkbox" name="q3" id="q3c" value="C" />
+        <label for="q3c">C</label>
+
+        <input type="checkbox" name="q3" id="q3d" value="D" />
+        <label for="q3d">D</label>
+      </div>
+    </div>
+
+    <button id="getAnswers">View Answers Below👀</button>
+    <button id="copyAnswers"><b>Copy Answers to Clipboard📋</b></button>
+
+    <div id="answerBox"></div>
+  </div>
+
+  <audio id="selectSound" src="Audio Files for UX/select.mp3" preload="auto"></audio>
+  <audio id="submitSound" src="Audio Files for UX/submit.mp3" preload="auto"></audio>
+  <audio id="copySound" src="Audio Files for UX/swoosh.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
