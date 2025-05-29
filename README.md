@@ -70,10 +70,11 @@ QuizAppChatGPT/
 
 * Created with love, energy, and curiosity by Rango, with guidance and code from ChatGPT.
 * Inspired by a desire to make AI-assisted quiz-taking easier and way more fun.
+---
 # 📜 License
 * MIT License — Free to use, hack, remix, and share.
 * Make it yours. Own your style.
-
+---
 ### How to use this this app?
 
 
