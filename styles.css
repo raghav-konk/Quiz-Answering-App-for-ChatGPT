@@ -126,3 +126,45 @@ input[type="checkbox"]:checked + label {
     background: linear-gradient(135deg, #682424, #033a92);
   }
 }
+.ridiculous-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  animation: colorDance 0.3s infinite alternate, wiggle 0.2s infinite, spinny 2s linear infinite;
+  display: inline-block;
+  text-shadow: 
+    2px 2px 0 #ff0000, 
+    -2px -2px 0 #00ff00,
+    2px -2px 0 #0000ff,
+    -2px 2px 0 #ffff00;
+  transform-origin: center;
+}
+
+@keyframes colorDance {
+  0% { color: #ff0080; }
+  25% { color: #00ffff; }
+  50% { color: #ffcc00; }
+  75% { color: #00ff00; }
+  100% { color: #ff0000; }
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(-3deg) scale(1.05); }
+  50% { transform: rotate(3deg) scale(1.1); }
+  100% { transform: rotate(-3deg) scale(1.05); }
+}
+
+@keyframes spinny {
+  from { text-shadow: 
+    2px 2px 0 #ff0000, 
+    -2px -2px 0 #00ff00,
+    2px -2px 0 #0000ff,
+    -2px 2px 0 #ffff00;
+  }
+  to { text-shadow: 
+    -2px -2px 0 #ff0000, 
+    2px 2px 0 #00ff00,
+    -2px 2px 0 #0000ff,
+    2px -2px 0 #ffff00;
+  }
+}
