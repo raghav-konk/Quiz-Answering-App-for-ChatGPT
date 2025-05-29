@@ -98,3 +98,31 @@ input[type="checkbox"]:checked + label {
   background-color: #2e7d32;
   transition: all 0.3s ease;
 }
+
+.container {
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  animation: boxColorCycle 10s infinite alternate;
+  background-size: 400% 400%;
+  transition: background 1s ease;
+}
+
+/* Animation for the quiz box */
+@keyframes boxColorCycle {
+  0% {
+    background: linear-gradient(135deg, #2c2c54, #23235b);
+  }
+  25% {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+  }
+  50% {
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+  }
+  75% {
+    background: linear-gradient(135deg, #193541, #203a43);
+  }
+  100% {
+    background: linear-gradient(135deg, #682424, #033a92);
+  }
+}
