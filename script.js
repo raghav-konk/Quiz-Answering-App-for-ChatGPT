@@ -19,9 +19,17 @@ document.querySelectorAll('input[type="checkbox"]').forEach((box) => {
 
 document.getElementById("getAnswers").addEventListener("click", () => {
   const audio = document.getElementById("submitSound");
-  audio.currentTime = 0;
-  audio.play();
+  if (audio) {
+      audio.currentTime = 0;
+      audio.play().catch((err) => {
+        console.warn("Audio playback failed:", err);
+      });
+    }
 
+    // Trigger vibration (on supported devices)
+    if ("vibrate" in navigator) {
+      navigator.vibrate(100);
+    }
   const answers = {};
   for (let i = 1; i <= 10; i++) {
     const selected = Array.from(document.querySelectorAll(`#q${i} input:checked`)).map(
@@ -53,6 +61,17 @@ document.getElementById("getAnswers").addEventListener("click", () => {
 document.getElementById("copyAnswers").addEventListener("click", () => {
   const hiddenTextArea = document.getElementById("hiddenClipboard");
   const audio = document.getElementById("copySound");
+  if (audio) {
+      audio.currentTime = 0;
+      audio.play().catch((err) => {
+        console.warn("Audio playback failed:", err);
+      });
+    }
+
+    // Trigger vibration (on supported devices)
+    if ("vibrate" in navigator) {
+      navigator.vibrate(100);
+    }
   audio.play();
   if (hiddenTextArea) {
     hiddenTextArea.select();
