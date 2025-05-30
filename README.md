@@ -72,8 +72,11 @@ QuizAppChatGPT/
 * Inspired by a desire to make AI-assisted quiz-taking easier and way more fun.
 ---
 # 📜 License
-* MIT License — Free to use, hack, remix, and share.
-* Make it yours. Own your style.
+* GNU GENERAL PUBLIC LICENSE — Free to use, hack, remix, and share.
+*** ✅What they allow:  
+- Use/modify/distribute freely.  
+*** ❌ **Key rule:**  
+- If you modify/distribute the code, **you MUST open-source your changes too** (e.g., Linux uses GPL).  
 ---
 ### How to use this this app?
 
