@@ -7,6 +7,7 @@
 * 🌚 Dark Mode Aesthetic — Sleek, minimal, and easy on the eyes.
 * 🎵 Sound Effects — Auditory feedback on selecting options and submitting answers.
 * 🎮 Vibration Support — Subtle haptic feedback on supported devices.
+* 🛑✋️ Vibration on Apple devices such as iPhones is not supported because Apple being Apple, does not expose Vibration hardware APIs to any web browser including its own Safari. but it works like charm on any Android device with vibration motors!!!
 * 🪄 Animated UI — Smooth animations for enhanced user experience.
 * 📋 Clipboard Copy — Export your selected answers with one click.
 * 🧠 No Question Input Needed — Designed for use with pre-generated AI quizzes.
